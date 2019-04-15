@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def oxford_comma(array)
   if array.count == 1
@@ -9,7 +9,6 @@ def oxford_comma(array)
     i = array.pop
       array.join(", ")
       
-      binding.pry
   
     
     
