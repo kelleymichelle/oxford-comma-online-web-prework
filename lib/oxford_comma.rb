@@ -7,8 +7,8 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.count == 3
     i = array.pop
-    
-    binding.pry
+      array.join(", ")
+  
     
     
   
