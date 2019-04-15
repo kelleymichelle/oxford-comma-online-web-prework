@@ -9,10 +9,5 @@ def oxford_comma(array)
     i = array.pop
       a = array.join(", ")
       "#{a}, and #{i}"
-      
-  
-    
-    
-  
   end  
 end
